@@ -17,8 +17,8 @@ public class IdController {
     private SegmentService segmentService;
 
     @GetMapping("segment")
-    public Result segment() {
-        Result result = segmentService.getId("leaf-segment-test");
+    public Long segment() {
+        Long result = segmentService.getId("leaf-segment-test").getId();
         return result;
     }
 }
