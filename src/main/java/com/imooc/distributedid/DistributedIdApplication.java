@@ -1,5 +1,6 @@
 package com.imooc.distributedid;
 
+import com.sankuai.inf.leaf.plugin.annotation.EnableLeafServer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -8,6 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @date: 2020/11/17 20:09
  */
 @SpringBootApplication
+@EnableLeafServer
 public class DistributedIdApplication {
 
     public static void main(String[] args) {
